@@ -1,7 +1,7 @@
 name: z_ui_plus
-description: A package for more styled UI
-version: 0.0.2
-homepage:
+description: UI customization with many possibilities. Checkboxes, progress bars etc.
+version: 0.0.3
+homepage: https://github.com/TetrixGauss/z_ui
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
