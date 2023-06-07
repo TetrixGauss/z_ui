@@ -1,6 +1,6 @@
 name: z_ui_plus
 description: UI customization with many possibilities. Checkboxes, progress bars etc.
-version: 0.0.3
+version: 0.0.6
 homepage: https://github.com/TetrixGauss/z_ui
 
 environment:

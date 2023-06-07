@@ -15,14 +15,14 @@ Run this command:
 
 With Flutter:
 ```flutter
-$ flutter pub add flutter_html
+$ flutter pub add z_ui_plus
 ```
 
 This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
 
 ```yaml
 dependencies:
-  z_ui_plus: ^0.0.1
+  z_ui_plus: ^0.0.4
 ```
 
 Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn more.

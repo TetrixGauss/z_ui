@@ -1,4 +1,7 @@
-part of z_ui_plus;
+import 'dart:async';
+
+import 'package:flutter/material.dart';
+import 'package:z_ui_plus/style/style_keys.dart';
 
 class ZCheckBox extends StatefulWidget {
   final Function onChanged;
@@ -32,6 +35,7 @@ class _ZCheckBoxState extends State<ZCheckBox> {
 
   @override
   void dispose() {
+    _streamController.close();
     _streamController.sink.close();
     super.dispose();
   }

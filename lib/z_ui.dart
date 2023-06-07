@@ -1,10 +1,7 @@
 library z_ui_plus;
 
-import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:z_ui_plus/style/style_keys.dart';
-
-part 'components/z_checkbox.dart';
+import 'package:z_ui_plus/components/z_checkbox.dart';
 
 class ZUI {
   /// @initialSelected : The initialValue of the checkbox, either true or false, (checked or not)
